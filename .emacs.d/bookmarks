@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("isneedinternal"
+ (filename . "~/code/build_aosp/art/runtime/native/dalvik_system_DexFile.cc")
+ (front-context-string . "exFilenameToOdex")
+ (rear-context-string . " odex_filename(D")
+ (position . 19837))
+)

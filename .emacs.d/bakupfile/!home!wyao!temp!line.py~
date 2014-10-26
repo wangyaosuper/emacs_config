@@ -1,0 +1,9 @@
+#!/usr/bin/python
+
+cmd = "a"
+res = ""
+while cmd != None:
+    res = res + "cmd" + " "
+
+print res
+    

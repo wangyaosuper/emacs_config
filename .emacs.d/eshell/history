@@ -1,0 +1,128 @@
+find . -name "SystemServer"
+find . -name "SystemServer*"
+grep -r "PackageManagerService" ./* -exclude-dir=.git
+grep -r "PackageManagerService" ./* --exclude-dir=.git
+find . -name "Installer.*"
+grep -r "dexopt" ./* --exclude-dir=.git
+find . -name dexopt
+grep -r "dex2oat" ./* --exclude-dir=.git
+cd code/
+ls
+cd android_master/
+ls
+cd frameworks/native/
+ls
+cd cmds/installd/
+ls
+ls
+cd code/
+ls
+cd android_master/
+ls
+cd art
+grep -r "IsDex" ./* --exclude-dir=.git
+ls
+grep -r "GetChecksum" ./* --exclude-dir=.git
+grep -r "android.git.kernel.org" ./* --exclude-dir=.git
+ls
+cd code
+ls
+cd android_master/
+ls
+cd frameworks/
+ls
+cd base
+find . -name "PackageMan*"
+grep -r 
+grep -r "performBootDexOpt" ./* --exclude-dir=.git
+grep -r "android_upgrading_starting_apps" ./* --exclude-dir=.git
+grep -r "performBootDexOpt" ./* --exclude-dir=.git
+grep -r "android_upgrading_apk" ./* --exclude-dir=.git
+ls
+cd ../.....
+cd ~/code/android_master/
+ls
+cd system/
+ls
+cd core/
+ls
+cd rootdir/
+ls
+cd ../..
+cd ..
+cd build/
+find . -name "init.*"
+cd -
+cd system/core/rootdir/
+ls
+cd ../../../build/
+ls
+cd target/product/
+ls
+ls
+cd ../../../system/
+ls
+cd core
+ls
+cd rootdir/
+ls
+ls -al
+cd ..
+ls
+ls -al
+git fetch origin master
+ls
+cd rootdir/
+ls
+emacs init.rc
+cd ~/code/build_aosp/
+ls
+cd .repo
+ls
+cp manifest.xml  manifest.xml.bak
+ls
+ls
+grep -r "aosp-new" ./*
+ls
+ls -al
+cd ~/temp
+ls
+grep "patchoat" nexus.log 
+cd ../code/
+ls
+cd build_aosp/
+ls
+ls -al
+pushd .
+cd ~/extend/code/codeaurora_aosp/
+ls
+ls -a
+ls -al
+ls
+popd
+ls
+cd frameworks/
+ls
+cd base
+ls
+cd packages/
+sl
+ls
+find . -name "PackageManagerService.java"
+find . -name "PackageManageService.java"
+cd ..
+find . -name "PackageManagerService.java"
+cd ../../art
+cd runtime/
+grep -r "isDexOptNeededInternal" ./* --exclude-dir=.git
+cd code/build_aosp/
+ls
+cd art/
+cd runtime/
+cd native/
+cd ..
+grep -r "ShouldRelocate" ./* --exclude-dir=.git
+grep -r "must_relocate" ./* --exclude-dir=.git
+grep -r "CanRelocate" ./* --exclude-dir=.git
+grep -r "DexFilenameToOdexFilename" ./* --exclude-dir=.git
+cd study/
