@@ -98,4 +98,8 @@
 (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
 (require 'color-theme)
 (color-theme-initialize)
-(color-theme-matrix)
+(color-theme-calm-forest)
+
+;; Scrolling without moving the point
+(global-set-key "\M-n"  (lambda () (interactive) (scroll-up   4)) )
+(global-set-key "\M-p"  (lambda () (interactive) (scroll-down 4)) )
